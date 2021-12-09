@@ -1,7 +1,7 @@
 
 
 func longestCommonPrefix(_ arr: [String]) -> String {
-    //CASE NO COMMON PREFIX
+    //CASE EMPTY ARRAY
     if arr.isEmpty {
         return ""
     }
@@ -22,7 +22,7 @@ func longestCommonPrefix(_ arr: [String]) -> String {
         
         return prefixStr
     }
-    //Nothing matched
+    //CASE NO COMMON PREFIX
     return ""
 }
 
